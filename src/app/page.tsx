@@ -1,10 +1,10 @@
 'use client';
 import React from 'react';
-import { Button, Icon } from 'antd';
+import { Button } from 'antd';
 import { BookOutlined, RightOutlined } from '@ant-design/icons';
 
 interface IntroCardProps {
-  icon: any;
+  iconSrc: any;
   title: any;
   description: any;
 }
@@ -50,7 +50,7 @@ export default function Home() {
         </div>
 
         <div className="overflow-hidden h-screen w-screen bg-white-600 flex items-center justify-center">
-          <IntroCard 
+          <IntroCard
             iconSrc="https://gw.alipayobjects.com/zos/rmsportal/WdGqmHpayyMjiEhcKoVE.png"
             title="智海浪潮"
             description="一款海洋环境预测商业化AI"
