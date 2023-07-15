@@ -25,7 +25,6 @@ const IntroCard: React.FC<IntroCardProps> = ({ iconSrc, title, description }) =>
 
 
 export default function Home() {
-
   const cardData = [
     {
       iconSrc: "https://gw.alipayobjects.com/zos/rmsportal/WdGqmHpayyMjiEhcKoVE.png",
